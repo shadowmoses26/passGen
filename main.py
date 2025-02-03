@@ -26,7 +26,7 @@ def pass_gen ():
     pass_key = []
     temp = ""
 
-    if slider_items > 0 and checkbox_number or checkbox_letters or checkbox_chars :
+    if slider_items > 0 and (checkbox_number or checkbox_letters or checkbox_chars) :
         if checkbox_number:
             for i in range(slider_items):
                 pass_key.append(str(random.choice(numbers)))
